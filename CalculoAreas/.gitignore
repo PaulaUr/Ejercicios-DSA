@@ -1,0 +1,5 @@
+# a comment - se ignora
+*.a # prescindir de los ficheros .a
+! lib .a # excepto lib .a, diga lo que diga la linea anterior
+build / # ignorar todos los ficheros en el directorio build / directory
+doc /*. txt # ignorar los ficheros . txt dentro de doc , pero no el resto
